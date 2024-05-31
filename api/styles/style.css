@@ -1,0 +1,80 @@
+#myVideo {
+    position: fixed;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+    
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('/img/background2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+.top-bar {
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.521);
+    display: flex;
+}
+
+.top-bar .left-bar {
+    /* background-color: aqua; */
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-bar .rigth-bar {
+    /* background-color: aquamarine; */
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: "GiantGnome";
+    src: url(fonts/GiantGnomeRegularLtd.ttf);
+}
+
+.top-bar .rigth-bar button {
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    font-family: "GiantGnome", Arial, sans-serif;
+    color: white;
+    border-color: rgba(255, 255, 255, 0.705);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.top-bar .left-bar .barr1 {
+    width: 130px;
+    height: 40px;
+    border-color: transparent;
+    border-right-color: rgb(255, 255, 255);
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+}
+
+.top-bar .left-bar .barr2 {
+    width: 130px;
+    height: 40px;
+    border-color: transparent;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+}
