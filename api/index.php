@@ -2,8 +2,8 @@
 <html lang="pt-BR">
     <head>	
 	    <title>Night Roleplay | O melhor servidor de RP da América Latina</title>
-	    <link href="/styles/style.css" rel="stylesheet" type="text/css" />	
-		<link href="/styles/avisos.css" rel="stylesheet" type="text/css" />	
+	    <link href="/api/styles/style.css" rel="stylesheet" type="text/css" />	
+		<link href="/api/styles/avisos.css" rel="stylesheet" type="text/css" />	
 		<link rel="icon" href="https://media.discordapp.net/attachments/1241831693791531048/1241832048222801961/Prancheta_4300x-8.png?ex=6652e1f8&is=66519078&hm=44536cbb0a1b20ecb80e4bf0bc7323c56c2366dbdc07587b52920a407f6f874a&=&format=webp&quality=lossless&width=810&height=810">
 	</head>
 	<body>
